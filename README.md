@@ -14,6 +14,13 @@ The php artisan serve command is primarily designed for local development purpos
 
 #### 4. Limited scalability: The development server has limitations in terms of scalability and performance. It may not handle high traffic loads efficiently, leading to degraded performance or downtime for your application.
 
+
 For production deployments, it is recommended to use specialized web servers or application deployment platforms that provide advanced features, scalability, security, and performance optimizations. Popular choices for deploying Laravel applications include Nginx, Apache, and cloud platforms like AWS, Google Cloud, or Heroku.
 
 These platforms offer more robust configurations, load balancing, caching mechanisms, SSL support, process management, and other features necessary for running Laravel applications in production.
+
+## I would like to explain between Dockerfile and Dockerfilebase as seeing inside repository
+
+### Dockefile is a text file that contains a set of instructions used to build a Docker image and the image I pulled from building DockerfileBase
+
+### DockefileBase is a text file that build from scratch of php and nginx service also included other requirements inside
