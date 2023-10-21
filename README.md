@@ -21,6 +21,6 @@ These platforms offer more robust configurations, load balancing, caching mechan
 
 ## I would like to explain between Dockerfile and Dockerfilebase as seeing inside repository
 
-### Dockefile is a text file that contains a set of instructions used to build a Docker image and the image I pulled from building DockerfileBase
+#### - Dockefile is a text file that contains a set of instructions used to build a Docker image and the image I pulled from building DockerfileBase
 
-### DockefileBase is a text file that build from scratch of php and nginx service also included other requirements inside
+#### - DockefileBase is a text file that build from scratch of php and nginx service also included other requirements inside
