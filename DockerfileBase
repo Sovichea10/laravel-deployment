@@ -1,5 +1,8 @@
 FROM php:8.1-fpm
 
+# Set Timezone
+ENV TZ="Asia/Phnom_Penh"
+
 RUN apt-get update && apt-get install -qqy git unzip \
         libjpeg62-turbo-dev \
         libfreetype6-dev \
